@@ -2,17 +2,17 @@
 <html lang="ru">
 
 <head>
-	<title>Кастомный курсор</title>
+	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221129122311">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221203003834">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body data-custom-cursor="double">
+<body>
 	<div class="wrapper">
 
 		<header class="header">
@@ -20,39 +20,836 @@
 			</div>
 		</header>
 		<main class="page">
-			<div class="page__container">
-				<div class="page__title">Модуль кастомного курсора</div>
-				<div class="page__castom-corsor cursor-castom">
-					<div class="cursor-castom__card">
-						<a href="#" class="cursor-castom__link">Ссылка</a>
+			<!-- <input style="border: 1px solid #000; height: 40px; width: 200px;" data-tel-input placeholder="+7 (___) ___-__-__" type="text"> -->
+			<section class="homepage__screenmain mainscreen">
+				<div class="mainscreen__container">
+					<!-- <div class="mainscreen__content content-main">
+						<h1 class="content-main__title">Оказание полного спектра услуг в области недропользования</h1>
+						<div class="content-main__text-about">
+							<p class="content-main__item-text">МФЦА – это уникальный центр, который использует лучшие практики и подходы международных финансовых центров и сотрудничает с
+								крупными корпорациями
+								и небольшими компаниями, недавно появившимися на рынке.</p>
+						</div>
+						<ul class="content-main__list">
+							<li class="content-main__item">Наличие опытных специалистов</li>
+							<li class="content-main__item">Современные методыв геологоразведке</li>
+							<li class="content-main__item">Налаженная сеть партнеров</li>
+							<li class="content-main__item">Постоянный контроль качества</li>
+						</ul>
+						<a href="#" class="content-main__button button">Оформить заявку</a>
 					</div>
-					<div class="cursor-castom__card">
-						<input type="text" name="form[]" data-error="Ошибка" placeholder="Input" class="cursor-castom__input input">
+					<div class="mainscreen__media _icon-play-video">
+						<video class="mainscreen__video" controls src="img/bg.webm"></video>
 					</div>
-					<div class="cursor-castom__card">
-						<a href="#" class="cursor-castom__picture-ibg">
-							<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.jpg" alt=""></picture>
-						</a>
-						<p class="cursor-castom__text">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel exercitationem temporibus eos iste soluta nobis quod cum tempore aperiam quam omnis saepe impedit
-							atque aliquid cumque ipsa debitis, voluptatem iusto, cupiditate mollitia consequuntur ab, unde id! Molestiae, perspiciatis nulla. Architecto numquam sequi ex
-							accusamus ipsa eius quibusdam esse quas suscipit?
-						</p>
-						<a href="#" class="cursor-castom__link">Ссылка на полную статью</a>
+					<button type="submit" class="langs">lang</button>
+					<div data-timer data-timer-end="2022.12.12.12:12" class="timer">
+						<div class="timer__title">Осталось до конца акции:</div>
+						<div class="timer__columns">
+							<div class="timer__column">
+								<div class="timer__number"><span data-timer-days>00</span></div>
+								<div data-timer-days-text class="timer__text">Дней</div>
+							</div>
+							<div class="timer__column">
+								<div class="timer__number"><span data-timer-hours>00</span></div>
+								<div data-timer-hours-text class="timer__text">Часов</div>
+							</div>
+							<div class="timer__column">
+								<div class="timer__number"><span data-timer-minutes>00</span></div>
+								<div data-timer-minutes-text class="timer__text">Минут</div>
+							</div>
+							<div class="timer__column">
+								<div class="timer__number"><span data-timer-seconds>00</span></div>
+								<div data-timer-seconds-text class="timer__text">Секунд</div>
+							</div>
+						</div>
+					</div> -->
+					<div data-filter class="filter">
+						<h2 class="filter__title">Фильтр сортировки (По ценам, популярности - в разработке)</h2>
+						<div data-filter-nav="multiple" class="filter__navigation">
+							<a href="#" data-filter-button="" class="filter__button">Сначала дешевле</a>
+							<a href="#" data-filter-button="" class="filter__button">Сначала дороже</a>
+							<a href="#" data-filter-button="" class="filter__button">Two</a>
+							<a href="#" data-filter-button="" class="filter__button">Three</a>
+							<a href="#" data-filter-button="" class="filter__button">Four</a>
+							<a href="#" data-filter-button="" class="filter__button">Five</a>
+						</div>
+						<div data-filter-body class="cards-mainscreen cards-mainscreen_price">
+							<a data-filter-card="five" data-filter-price="1033" href="#" class="1 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fuga delectus odit, sint
+										dicta architecto? Ex, at molestias quam sint ratione,
+										reiciendis possimus culpa quae sunt quidem repellendus. Itaque odio doloremque id magnam
+										eius neque, architecto enim eaque repellat officia. Lorem ipsum dolor sit amet.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="2 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus hic, nam incidunt
+										quasi dolore.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="3 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem ipsum dolor sit amet.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="4 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur Lorem ipsum dolor, sit amet consectetur adipisicing.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="5 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="6 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="7 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="8 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/cover.webp" type="image/webp"><img src="img/cover.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+						</div>
 					</div>
-					<div class="cursor-castom__card">
-						<button type="button" class="cursor-castom__button">Кнопка</button>
+					<div data-filter class="filter">
+						<h2 class="filter__title">Фильтр сортировки (мультивыбор)</h2>
+						<div data-filter-nav="multiple" class="filter__navigation">
+							<a href="#" data-filter-button="all" class="filter__button">All</a>
+							<a href="#" data-filter-button="one" class="filter__button">One</a>
+							<a href="#" data-filter-button="two" class="filter__button">Two</a>
+							<a href="#" data-filter-button="three" class="filter__button">Three</a>
+							<a href="#" data-filter-button="four" class="filter__button">Four</a>
+							<a href="#" data-filter-button="five" class="filter__button">Five</a>
+						</div>
+						<div data-filter-body class="cards-mainscreen cards-mainscreen_one">
+							<a data-filter-card="five" href="#" class="1 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fuga delectus odit, sint
+										dicta architecto? Ex, at molestias quam sint ratione,
+										reiciendis possimus culpa quae sunt quidem repellendus. Itaque odio doloremque id magnam
+										eius neque, architecto enim eaque repellat officia. Lorem ipsum dolor sit amet.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="2 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus hic, nam incidunt
+										quasi dolore.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="3 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem ipsum dolor sit amet.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="4 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur Lorem ipsum dolor, sit amet consectetur adipisicing.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="5 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="6 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="7 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="8 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/cover.webp" type="image/webp"><img src="img/cover.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+						</div>
 					</div>
-					<div class="cursor-castom__card">
-						<select name="form[]" class="form">
-							<option value="1" selected>Пункт №1</option>
-							<option value="2">Пункт №2</option>
-							<option value="3">Пункт №3</option>
-							<option value="4">Пункт №4</option>
-						</select>
+					<div data-filter class="filter">
+						<h2 class="filter__title">Фильтр сортировки (грид сетка)</h2>
+						<div data-filter-nav class="filter__navigation">
+							<a href="#" data-filter-button="all" class="filter__button">All</a>
+							<a href="#" data-filter-button="one" class="filter__button">One</a>
+							<a href="#" data-filter-button="two" class="filter__button">Two</a>
+							<a href="#" data-filter-button="three" class="filter__button">Three</a>
+							<a href="#" data-filter-button="four" class="filter__button">Four</a>
+							<a href="#" data-filter-button="five" class="filter__button">Five</a>
+						</div>
+						<div data-filter-body class="cards-mainscreen cards-mainscreen_second">
+							<a data-filter-card="five" href="#" class="1 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fuga delectus odit, sint
+										dicta architecto? Ex, at molestias quam sint ratione,
+										reiciendis possimus culpa quae sunt quidem repellendus. Itaque odio doloremque id magnam
+										eius neque, architecto enim eaque repellat officia. Lorem ipsum dolor sit amet.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="2 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus hic, nam incidunt
+										quasi dolore.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="3 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem ipsum dolor sit amet.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="4 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur Lorem ipsum dolor, sit amet consectetur adipisicing.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="5 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="6 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="7 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="8 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/cover.webp" type="image/webp"><img src="img/cover.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div data-filter class="filter">
+						<h2 class="filter__title">Фильтр сортировки (без сетки)</h2>
+						<div data-filter-nav class="filter__navigation">
+							<a href="#" data-filter-button="all" class="filter__button">All</a>
+							<a href="#" data-filter-button="one" class="filter__button">One</a>
+							<a href="#" data-filter-button="two" class="filter__button">Two</a>
+							<a href="#" data-filter-button="three" class="filter__button">Three</a>
+							<a href="#" data-filter-button="four" class="filter__button">Four</a>
+							<a href="#" data-filter-button="five" class="filter__button">Five</a>
+						</div>
+						<div data-filter-body class="cards-mainscreen cards-mainscreen_three">
+							<a data-filter-card="five" href="#" class="1 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fuga delectus odit, sint
+										dicta architecto? Ex, at molestias quam sint ratione,
+										reiciendis possimus culpa quae sunt quidem repellendus. Itaque odio doloremque id magnam
+										eius neque, architecto enim eaque repellat officia. Lorem ipsum dolor sit amet.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="2 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus hic, nam incidunt
+										quasi dolore.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="3 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem ipsum dolor sit amet.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="4 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur Lorem ipsum dolor, sit amet consectetur adipisicing.
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="5 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum dolor.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="one" href="#" class="6 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.jpeg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="three" href="#" class="7 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt veritatis voluptatibus nesciunt?
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="8 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/cover.webp" type="image/webp"><img src="img/cover.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in commodi repellat odio
+										enim! At accusantium illo, numquam modi quibusdam accusamus
+										corporis porro, minus consequuntur quam sunt
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="four" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="two" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+								<div class="cards-mainscreen__picrute">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
+								</div>
+								<div class="cards-mainscreen__content">
+									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
+									<p class="cards-mainscreen__text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est aliquid enim,
+										sint similique modi non libero asperiores blanditiis nobis quo
+										amet, tenetur impedit cum. Inventore nisi rem voluptate, blanditiis et minima nulla quo,
+										quia eius necessitatibus possimus. Pariatur, nobis! Quidem
+										vero architecto sunt, saepe et dolore cupiditate, magni aut velit sint est ad itaque
+										mollitia tempora, rerum unde dolor!
+									</p>
+									<button type="button" class="cards-mainscreen__button">Читать далее</button>
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+			<!-- <div class="anim">
+				<div class="anim__title">
+					<span>З</span>
+					<span>а</span>
+					<span>г</span>
+					<span>о</span>
+					<span>л</span>
+					<span>о</span>
+					<span>в</span>
+					<span>о</span>
+					<span>к</span>
+				</div>
+			</div> -->
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -71,7 +868,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20221129122311"></script>
+	<script src="js/app.min.js?_v=20221203003834"></script>
 </body>
 
 </html>
