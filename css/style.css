@@ -675,6 +675,14 @@ html.nocursor input {
   content: "5";
 }
 
+.cards-mainscreen_price [data-filter-card] .cards-mainscreen__picrute::before {
+  content: attr(data-filter-price);
+}
+
+.cards-mainscreen_price [data-filter-popular] .cards-mainscreen__picrute::before {
+  content: "popular";
+}
+
 .anim {
   display: flex;
   justify-content: center;
