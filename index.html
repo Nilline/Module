@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221203003834">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221204230930">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,16 +66,16 @@
 					<div data-filter class="filter">
 						<h2 class="filter__title">Фильтр сортировки (По ценам, популярности - в разработке)</h2>
 						<div data-filter-nav="multiple" class="filter__navigation">
-							<a href="#" data-filter-button="" class="filter__button">Сначала дешевле</a>
-							<a href="#" data-filter-button="" class="filter__button">Сначала дороже</a>
-							<a href="#" data-filter-button="" class="filter__button">Two</a>
-							<a href="#" data-filter-button="" class="filter__button">Three</a>
-							<a href="#" data-filter-button="" class="filter__button">Four</a>
-							<a href="#" data-filter-button="" class="filter__button">Five</a>
+							<a href="#" data-filter-button="less" class="filter__button">Сначала дешевле</a>
+							<a href="#" data-filter-button="more" class="filter__button">Сначала дороже</a>
+							<a href="#" data-filter-button="popular" class="filter__button">Популярные</a>
+							<a href="#" data-filter-button="three" class="filter__button">Three</a>
+							<a href="#" data-filter-button="four" class="filter__button">Four</a>
+							<a href="#" data-filter-button="five" class="filter__button">Five</a>
 						</div>
 						<div data-filter-body class="cards-mainscreen cards-mainscreen_price">
-							<a data-filter-card="five" data-filter-price="1033" href="#" class="1 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
+							<a data-filter-card="five" href="#" class="1 cards-mainscreen__card">
+								<div data-filter-price="1033" class="cards-mainscreen__picrute">
 									<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
@@ -90,7 +90,7 @@
 								</div>
 							</a>
 							<a data-filter-card="two" href="#" class="2 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
+								<div data-filter-price="250" class="cards-mainscreen__picrute">
 									<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.jpeg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
@@ -103,7 +103,7 @@
 								</div>
 							</a>
 							<a data-filter-card="three" href="#" class="3 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
+								<div data-filter-price="888" class="cards-mainscreen__picrute">
 									<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
@@ -117,7 +117,7 @@
 								</div>
 							</a>
 							<a data-filter-card="one" href="#" class="4 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
+								<div data-filter-price="2000" class="cards-mainscreen__picrute">
 									<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
@@ -131,7 +131,7 @@
 								</div>
 							</a>
 							<a data-filter-card="two" href="#" class="5 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
+								<div data-filter-price="767" class="cards-mainscreen__picrute">
 									<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.jpg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
@@ -145,7 +145,7 @@
 								</div>
 							</a>
 							<a data-filter-card="one" href="#" class="6 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
+								<div data-filter-price="1280" class="cards-mainscreen__picrute">
 									<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.jpeg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
@@ -159,7 +159,7 @@
 								</div>
 							</a>
 							<a data-filter-card="three" href="#" class="7 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
+								<div data-filter-price="1722" class="cards-mainscreen__picrute">
 									<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.jpg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
@@ -173,8 +173,8 @@
 								</div>
 							</a>
 							<a data-filter-card="four" href="#" class="8 cards-mainscreen__card">
-								<div class="cards-mainscreen__picrute">
-									<picture><source srcset="img/cover.webp" type="image/webp"><img src="img/cover.jpg" alt=""></picture>
+								<div data-filter-price="444" class="cards-mainscreen__picrute">
+									<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
 								</div>
 								<div class="cards-mainscreen__content">
 									<h2 class="cards-mainscreen__title">Lorem, ipsum.</h2>
@@ -186,7 +186,7 @@
 									<button type="button" class="cards-mainscreen__button">Читать далее</button>
 								</div>
 							</a>
-							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+							<a data-filter-card="five" data-filter-popular href="#" class="9 cards-mainscreen__card">
 								<div class="cards-mainscreen__picrute">
 									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
 								</div>
@@ -203,7 +203,7 @@
 									<button type="button" class="cards-mainscreen__button">Читать далее</button>
 								</div>
 							</a>
-							<a data-filter-card="four" href="#" class="9 cards-mainscreen__card">
+							<a data-filter-card="four" data-filter-popular href="#" class="9 cards-mainscreen__card">
 								<div class="cards-mainscreen__picrute">
 									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
 								</div>
@@ -220,7 +220,7 @@
 									<button type="button" class="cards-mainscreen__button">Читать далее</button>
 								</div>
 							</a>
-							<a data-filter-card="two" href="#" class="9 cards-mainscreen__card">
+							<a data-filter-card="two" data-filter-popular href="#" class="9 cards-mainscreen__card">
 								<div class="cards-mainscreen__picrute">
 									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
 								</div>
@@ -237,7 +237,7 @@
 									<button type="button" class="cards-mainscreen__button">Читать далее</button>
 								</div>
 							</a>
-							<a data-filter-card="five" href="#" class="9 cards-mainscreen__card">
+							<a data-filter-card="five" data-filter-popular href="#" class="9 cards-mainscreen__card">
 								<div class="cards-mainscreen__picrute">
 									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt=""></picture>
 								</div>
@@ -868,7 +868,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20221203003834"></script>
+	<script src="js/app.min.js?_v=20221204230930"></script>
 </body>
 
 </html>
